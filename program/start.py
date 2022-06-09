@@ -53,7 +53,7 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f""" Salam {message.from_user.mention()}! **ʟᴜᴋs ᴍᴜsɪᴄ 💎 sizi salamlayır.**\n
+        f""" Salam {message.from_user.mention()}! **Eko Music 💎 sizi salamlayır.**\n
 Botu qrupa əlavə edərək həm musiqi dinləyə həmdə video və ya kino izləyə bilərsiz.
 
 
@@ -64,13 +64,13 @@ Botu qrupa əlavə edərək həm musiqi dinləyə həmdə video və ya kino izl�
                 [
                     InlineKeyboardButton(
                         "➕ Məni qrupa əlavə et",
-                        url=f"https://t.me/LuksMusicRoBot?startgroup=true",
+                        url=f"https://t.me/EkoMusiccBot?startgroup=true",
                     )
                 ],
                 [
                     InlineKeyboardButton(
                         "🧔🏻 Sahibim",
-                        url=f"https://t.me/ismayilzadevuqar",
+                        url=f"https://t.me/Nevrozdu",
                     )
                 ],
                 [
@@ -78,7 +78,7 @@ Botu qrupa əlavə edərək həm musiqi dinləyə həmdə video və ya kino izl�
                         "✅ Dəstək qrupu", url=f"https://t.me/NeonSUP"
                     ),
                     InlineKeyboardButton(
-                        "📣 Rəsmi kanal", url=f"https://t.me/LuksProject"
+                        "📣 Rəsmi kanal", url=f"https://t.me/EkoBlogs"
                     ),
                 ],
 
@@ -100,11 +100,11 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("✅ Rəsmi Kanal", url=f"https://t.me/LuksProject"),
+                            InlineKeyboardButton("✅ Rəsmi Kanal", url=f"https://t.me/EkoBlogs"),
                             InlineKeyboardButton("❤️ Dəstək qrupu", url=f"https://t.me/NeonSUP")
                         ],
                         [
-                            InlineKeyboardButton("👤 Asistan", url=f"https://t.me/LuksMusicAsistant")
+                            InlineKeyboardButton("👤 Asistan", url=f"https://t.me/EkoAsistant")
                         ]
                     ]
                 )
